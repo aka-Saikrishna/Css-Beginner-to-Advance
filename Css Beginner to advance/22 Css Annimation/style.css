@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #445577;
+    box-shadow: 0 0 0 15px #353f6d;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 50px;
+    animation-name: lefttoright;
+    animation-duration: 3s;
+    animation-timing-function: linear ;
+    animation-iteration-count: 3 ;
+    animation-direction: alternate;
+}
+@keyframes lefttoright{
+    /* from{
+        translate: 0%;
+    }
+    to {
+        translate: calc(80vw - 100px);
+    } */
+    0%{
+        translate: 0%;
+    }
+    50%{
+        translate: 50vw 50vw;
+    }
+    100%{
+        translate: calc(80vw - 100px);
+    }
+}

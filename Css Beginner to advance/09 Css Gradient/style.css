@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to bottom right, #fed342, #ddd432, #ffeeaa,#ad1298);
+*/
+    /* background-image: linear-gradient(to left bottom, pink, hotpink, pink); */
+    /* background-image: repeating-linear-gradient(50deg, #ff222250, #80ff3460 100px); */
+    background-image:linear-gradient( rgba(234, 200, 150, 0.6), rgba(255, 0, 180,0.4)),
+    url(./image.webp);
+}
+div{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle, pink, #ee1298, red);
+    /* try radial Gradient */
+}

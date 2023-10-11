@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(5, 69, 79);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.box{
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: rgb(109, 125, 106);
+    border-radius: 50%;
+    box-shadow: 3px 3px 15px 10px rgb(70, 53, 67);
+    transition: all 5s;
+}
+.box:nth-child(1):hover{
+    transition-timing-function: ease;
+    translate: 70vw 0;
+}
+.box:nth-child(2):hover{
+    transition: 5s ease-in;
+    translate: 50vw 0;
+}
+.box:nth-child(3):hover{
+    transition: 5s ease-in-out;
+    translate: 90vw 0;
+}
+.box:nth-child(4):hover{
+    transition: 5s ease-out;
+    translate: 40vw 0;
+}

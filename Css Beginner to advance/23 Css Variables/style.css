@@ -1,0 +1,16 @@
+:root{
+    --main-color:#ff4598;
+    --paragraph-color:#123456;
+    --background-color:#1498ff
+}
+.para1{
+    background-color: var(--background-color);
+    color: var(--paragraph-color);
+}
+.para2{
+    background-color: var(--background-color);
+    color: var(--paragraph-color);
+}
+h1{
+    color: var(--main-color);
+}

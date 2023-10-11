@@ -1,0 +1,37 @@
+.parent{
+    position: relative;
+    left: 400px;
+    width: 500px;
+    height: 500px;
+    background-color: cadetblue;
+
+}
+.child{
+    position: absolute; /* try other properties of position*/
+    margin-left: 2px;
+    width: 100px;
+    height: 100px;
+    background-color: darkslategrey;
+    display: grid;
+    place-items: center;
+    border: 1px solid #f3f5f9;
+}
+.child1{
+    bottom: 0;
+    right: 60px;
+}
+.child2{
+top: 200px;
+}
+.child3{
+left: 200px;
+}
+.child4{
+    /* left: 200px;
+    top: 200px; */
+
+    /* or */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

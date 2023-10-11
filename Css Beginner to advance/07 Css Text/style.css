@@ -1,0 +1,32 @@
+html{
+    font-family:  monospace;
+}
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    color: #4ff44f;
+    background-color: #ddaa44;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+    text-transform: capitalize;
+}
+h3{
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    line-height: 1.6;
+    text-shadow: 4px 2px 4px #4590ff ;
+     /** 1st value represents offset-X */
+     /** 2st value represents offset-Y  */ 
+     /** #rd value represent BlurRadius  */
+}
+.spacing{
+    text-transform: capitalize;
+}
+h3::first-letter{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    font-size: 20px;
+}

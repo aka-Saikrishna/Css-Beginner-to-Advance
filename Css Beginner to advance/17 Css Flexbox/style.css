@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body{
+    background-color: black;
+}
+.main-heading{
+    font-size: 100px;
+    color: antiquewhite;
+    width: 100%;
+    height: auto;
+}
+.flex-container {
+  width: 60%;
+  height: 80vh;
+  margin: 0 auto;
+  background: #1f4037;  /* fallback for old browsers */
+background: linear-gradient(to right, #e46a97, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 10px 10px 30px 3px rgba(225, 190, 190, 0.82) ;
+
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column-reverse; */
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  /* align-items: center; */
+  gap: 10px;
+    flex-wrap: wrap;
+}
+.item{
+    padding: 5px;
+    font-size: 20px;
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1;
+    background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2% );
+    box-shadow: 6px 6px 25px 3px rgba(193, 232, 205, 0.75);
+    flex: 2;
+}
+ /* .item2{ */
+    /* flex-grow: 2; */
+    /* flex-shrink: 2;*/
+    /* align-self: flex-start; */
+/* }  */
+/* .item3{
+    flex-basis: 400px;
+} */

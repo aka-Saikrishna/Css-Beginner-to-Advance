@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: violet;
+}
+.container img {
+  width: 30%;
+  height: auto;
+  transition: all 1s linear;
+}
+.container img:hover {
+  /* transform: translateY(200px); */
+  /* translate: 200px 300px; */ /*both are same*/
+  /* transform: scale(0.5); */
+  /* scale: .5; */
+  /* transform: rotate(-90deg); */
+ 
+  /* transform: skew(30deg); */ 
+  rotate: 30deg;
+  transform-origin: left;
+}
+

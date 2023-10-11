@@ -1,0 +1,29 @@
+/** The CSS multi-column layout allows easy definition of multiple columns of text - just like in newspapers */
+/* 
+column-count
+column-gap
+column-rule-style
+column-rule-width
+column-rule-color
+column-rule
+column-span
+column-width */
+
+
+.news{
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    background-color: burlywood;
+    padding: 10px;
+    border: 3px solid #ff4590;
+    border-radius: 5px;
+}
+p{
+    column-count: 4;
+    column-rule: 3px solid #ff4590;
+  /*  [column-rule-width] [column-rule-style] [column-rule-color] same as border */
+    column-gap: 30px;
+    text-align: justify;
+}

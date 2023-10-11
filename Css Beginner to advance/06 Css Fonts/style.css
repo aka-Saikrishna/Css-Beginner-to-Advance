@@ -1,0 +1,14 @@
+html{
+    font-family: monospace;
+    font-size: 62.5%;
+}
+body{
+    background-color: cadetblue;
+    color: azure;
+    font-size: 24px;
+}
+h1{
+    font-weight: 900;
+    font-style: italic;
+    font-variant:small-caps ;
+}

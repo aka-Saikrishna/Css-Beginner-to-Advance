@@ -1,0 +1,18 @@
+h1{
+    color:chartreuse ;
+}
+.para{
+    color: rgb(106, 176, 159);
+}
+.btn{
+    color: skyblue;
+    font-weight:bold;
+}
+/* #button{
+    background-color: blueviolet;
+} */
+
+.btn:hover{
+    background: pink;
+
+}

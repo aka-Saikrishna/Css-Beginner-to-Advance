@@ -1,0 +1,69 @@
+There are 3 ways to write Css
+
+1) Inline Css- Style applied directly to an HTML element using "style attribute"
+Ex:  <h1 style="color: cadetblue">Css Selector</h1>
+
+2)Internal Css- Style defined within the <style> tag
+within the HTML document <head></head>
+Ex:  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basics of Css</title>
+    <style>
+        h1{
+            color: brown;
+        }
+    </style>
+  </head>
+
+3)External Css- Style stored in separate .css files linked to the HTML document suing <link> element/tag
+Ex:
+syntax:
+h1{
+    color: green ;
+}
+ Priority:
+ Inline Css has higher Priority internal and External Css
+ Inline Css > Internal Css > External Css
+
+Css tag/element Selector:
+
+syntax:
+h1{
+    color: green ;
+}
+
+where
+ h1 = selector
+ color = property
+ green = value
+
+Class Selector:
+<button class="btn" >Class Selector</button> (HTML)
+Css:
+.btn{
+    color: skyblue;
+    font-weight:bold;
+}
+#button{
+    background-color: rgb(200, 108, 179);
+}
+. - represents Class Selector
+# - represents Id Selector
+ font-weight:bold; - Known as DECLARATION
+
+ Css Comments
+
+/* #button{
+    background-color: blueviolet;
+} */
+
+this is known as Comments with /* */ symbols its works with first-in first-out principle
+
+
+
+
+
+Hexadecimal or HEX: #RRGGBB representation of hex color
+

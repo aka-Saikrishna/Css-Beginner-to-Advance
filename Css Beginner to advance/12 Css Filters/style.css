@@ -1,0 +1,12 @@
+body{
+    background-color: #ddaf3460;
+}
+img{
+    width: 400px;
+    height: 400px;
+    /* filter: grayscale(0.2); 1 has higher gay value and 0 has lower gray value i.e 0 is original color of image */
+    /* filter: blur(2px); */
+    /* filter: brightness(90%); */
+    /* filter: contrast(500%); */
+     filter: blur(3px) opacity(.9) invert(10%);
+}

@@ -1,0 +1,50 @@
+/** ------------------------------------- -->
+/**  UNITS IN CSS 
+/** ---------------------------------------- -->
+
+/** Absolute Lengths:  The absolute length units are fixed and a length expressed in any of these will appear as exactly that size. */
+
+/** Relative Lengths: Relative length units specify a length relative to another length property. Relative length units scale better between different rendering medium. */
+
+/* Pixels (px): px is an absolute unit of measurement in CSS, representing the smallest unit of screen space.
+It provides a fixed and consistent size on all devices and screens. */
+
+/* Percentages (%): Percentages are relative units based on the parent element's size or the containing block.
+Widely used in creating responsive layouts.
+Example: width: 50%; sets an element's width to 50% of its parent's width. */
+
+/* Em (em): em is a relative unit that is calculated based on the font size of the parent element.
+When you set an element's size in em, it's relative to the font size of its nearest parent with a specified font size. */
+
+/* Root Em (rem): rem is also a relative unit like em, but it's based on the font size of the root (html) element.
+Using rem ensures that the size is consistent throughout the entire document, making it especially useful for responsive design. */
+
+/** Pixels */
+h1{
+    font-size: 60px;
+    color: cadetblue;
+}
+
+/** Percentage  */
+/**for Percentages  100% = 16px then 1px = 6.25% */
+h4{
+    font-size: 250%;
+}
+.parent{
+    font-size: 20px;
+}
+/** 1 em = 16px default*/
+/** parent font size is 20px so now 1 em = 20px*/
+ul.absolute{
+font-size: 2.375em;
+}
+/* 16px = 100%
+    1px = 6.25%
+    10px = 62.5%
+ */
+html{
+    font-size: 62.5%;
+}
+li{
+    font-size: 3.6rem;
+}

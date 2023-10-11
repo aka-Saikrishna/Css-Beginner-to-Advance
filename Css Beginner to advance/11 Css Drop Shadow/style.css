@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    background-color: #191919;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+img{
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(1px 10px 10px #43ec87 );
+}
+p{
+    color: #43ec8780;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 40px;
+}

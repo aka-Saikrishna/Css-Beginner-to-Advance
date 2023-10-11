@@ -1,0 +1,36 @@
+p{
+    /* Predefined Colors */
+    color: aqua;
+}
+.rgb{
+    color: rgb(255, 120, 123);
+    /* RGB: Red , Green, Blue (all three colors hove range from 0 to 255) */
+}
+
+.rgba{
+    color: rgba(60, 150, 120, 0.9);
+
+/* RGBA: Red , Green, Blue (all three colors hove range from 0 to 255) and Alpha (range from 0 to 1) alpha represents transparency */
+}
+.hex{
+    color: #69b37c;
+    /* Hexadecimal or HEX: #RRGGBB representation of hex color where values ranges from (0 to 9) and (a to f) */
+}
+.hsl{
+    /* HSL: Hue, Saturation, Lightness where Hue is a degree on the color wheel (from 0 to 360) - 0 (or 360) is red, 120 is green, 240 is blue. Saturation is a percentage value; 0% means a shade of gray and 100% is the full color. Lightness is also a percentage; 0% is black, 100% is white.*/
+    color: hsl(120, 25%, 80%);
+}
+.hsla{
+    /* hsla(hue, saturation, lightness, alpha)
+
+The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque). */
+color: hsla(280, 30%, 70%, 0.5);
+}
+
+/* Interview Questions */
+
+/*? How can ou make the text color of an element fully transparent using Css? */
+h3{
+    /* color: rgba(255, 80, 0, 0); */
+    color: transparent;
+}

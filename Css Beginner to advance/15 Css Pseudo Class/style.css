@@ -1,0 +1,36 @@
+.btn1{
+    width:100px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.btn1:hover{
+    content: "";
+    color: red;
+    background:linear-gradient(pink,hotpink);
+    cursor: pointer;
+}
+/* .content li:first-child{color: brown;}
+.content li:last-child{color: brown;} */
+/* .content li:first-of-type{
+    color: chocolate;
+} */
+/* .content p:last-of-type{
+    color:firebrick;
+}
+.content li:nth-of-type(3){
+    color: goldenrod;
+}  */
+/* .content li:nth-child(1{
+    color: darkgreen;
+})  wont work because li is 3rd child of class content*/
+/* .content li:nth-child(3){
+    color: lightsalmon;
+} */
+.content li:nth-child(odd){
+    color: crimson;
+}
+.content li:nth-child(even){
+    color:cadetblue;
+}
+
